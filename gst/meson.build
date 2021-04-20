@@ -11,7 +11,7 @@ foreach plugin : ['accurip', 'adpcmdec', 'adpcmenc', 'aiff', 'asfmux',
                   'rawparse', 'removesilence', 'sdp', 'segmentclip', 'siren',
                   'smooth', 'speed', 'subenc', 'timecode',
                   'videofilters', 'videoframe_audiolevel', 'videoparsers',
-                  'videosignal', 'vmnc', 'y4m', 'yadif']
+                  'videosignal', 'vmnc', 'y4m', 'yadif', 'imlscale']
   if not get_option(plugin).disabled()
     subdir(plugin)
   endif
