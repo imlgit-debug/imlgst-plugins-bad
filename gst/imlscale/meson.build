@@ -1,11 +1,8 @@
 vfilt_sources = [
-  'gstzebrastripe.c',
-  'gstscenechange.c',
-  'gstvideodiff.c',
-  'gstvideofiltersbad.c',
+  'gstimlscale.c',
 ]
 
-gstvideofiltersbad = library('gstvideofiltersbad',
+gstvideofiltersbad = library('gstimlscalebad',
   vfilt_sources,
   c_args : gst_plugins_bad_args,
   include_directories : [configinc],
